@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "extractini"
+version = "0.1.0"
+description = ""
+authors = ["Matt Magin <matt.magin@cmv.com.au>"]
+
+[tool.poetry.dependencies]
+python = "*"
+click = "^6.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[tool.poetry.scripts]
+extractini = 'extractini.console:extract_from_inifile'
